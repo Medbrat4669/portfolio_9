@@ -17,3 +17,80 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* features */
+.features {
+    text-align: center;
+    padding: 170px 0;
+}
+.title {
+    color: rgba(61, 79, 159, 1);
+    font-family: Roboto;
+    font-weight: 500;
+}
+.title h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.title  p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cards {
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item {
+    margin-top: 94px;
+    width: 140px;
+    font-family: Roboto;
+}
+.item h3 {
+    margin-top: 30px;
+    color: rgba(64, 116, 248, 1);
+    font-size: 14px;
+    font-weight: 600;
+}
+.item p {
+    margin-top: 33px;
+    color: rgba(173, 179, 203, 1);
+    font-size: 11px;
+    font-weight: 500;
+}
+.buttons {
+    margin-top: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 111px;
+}
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 43px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.buttons-readmore {
+    color: rgba(212, 63, 63, 1);
+    background-color: rgba(255, 215, 215, 1);
+    border-radius: 2px;
+}
+.buttons-getstarted {
+    color: rgba(58, 121, 255, 1);
+    background-color: rgba(210, 225, 255, 1);
+    border-radius: 2px;
+}
